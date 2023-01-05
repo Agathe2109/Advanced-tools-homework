@@ -108,7 +108,7 @@ p {
     font-size: 45px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .contact-link .about-link {
     display: flex;
@@ -116,5 +116,6 @@ p {
   }
   .text-desktop {
     text-align: center;
+    columns: none;
   }
 }
