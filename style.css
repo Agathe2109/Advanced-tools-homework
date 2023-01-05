@@ -107,7 +107,7 @@ p {
   h1 {
     font-size: 45px;
   }
-  h2 {
+  h3 {
     font-size: 30px;
   }
   .contact-link .about-link {
@@ -116,6 +116,6 @@ p {
   }
   .text-desktop {
     text-align: center;
-    columns: none;
+    column-width: auto;
   }
 }
