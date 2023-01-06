@@ -108,15 +108,14 @@ p {
     font-size: 45px;
   }
   h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
-  .contact-link .about-link {
-    display: flex;
-    justify-content: center;
-  }
-  .text-desktop {
+  .primary-link {
+    display: block;
     text-align: center;
-    column-width: auto;
-    columns: auto;
+    margin: 0 20px;
+  }
+  .text {
+    text-align: center;
   }
 }
