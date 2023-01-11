@@ -100,6 +100,12 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+.fa-linkedin {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 30px;
+}
 @media (max-width: 576px) {
   .picture-desktop {
     display: none;
