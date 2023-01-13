@@ -106,6 +106,18 @@ p {
   color: var(--primary-color);
   font-size: 30px;
 }
+.hero {
+  background-color: #f7fbfe;
+  padding: 120px 20px;
+}
+.hero h1 {
+  font-family: "Playfair Display";
+}
+.hero h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
 @media (max-width: 576px) {
   .picture-desktop {
     display: none;
