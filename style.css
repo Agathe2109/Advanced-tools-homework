@@ -100,7 +100,7 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.fa-linkedin {
+.fa-socials {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
