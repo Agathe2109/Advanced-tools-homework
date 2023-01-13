@@ -100,7 +100,13 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.fa-socials {
+.fa-linkedin {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 30px;
+}
+.fa-github {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
