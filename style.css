@@ -13,6 +13,8 @@ h2,
 h3 {
   text-align: center;
   margin: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
 }
 
 h1 {
@@ -103,14 +105,21 @@ p {
 .fa-linkedin {
   display: flex;
   justify-content: center;
+  position: relative;
+  right: 40px;
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 35px;
+  text-decoration: none;
 }
-.fa-github {
+.fa-ggithub {
   display: flex;
   justify-content: center;
+  position: relative;
+  left: 60px;
+  bottom: 35px;
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 35px;
+  text-decoration: none;
 }
 .hero {
   background-color: #f7fbfe;
@@ -121,6 +130,9 @@ p {
 }
 .hero h2,
 h3 {
+  font-family: "Poppins", sans-serif;
+}
+.title .text {
   font-family: "Poppins", sans-serif;
 }
 
