@@ -135,6 +135,19 @@ h3 {
 .title .text {
   font-family: "Poppins", sans-serif;
 }
+.about-hero {
+  background-color: #f7fbfe;
+  padding: 100px 20px;
+}
+.picture-me {
+  border-radius: 8px;
+  text-align: center;
+  margin-left: 45px;
+}
+.work {
+  font-size: 60px;
+  font-family: "Playfair Display";
+}
 
 @media (max-width: 576px) {
   .picture-desktop {
@@ -157,7 +170,10 @@ h3 {
   .text {
     text-align: center;
   }
-  .hero {
+  .hero .about-hero {
     padding: 80px 20px;
+  }
+  .picture-me {
+    margin: 0 auto;
   }
 }
