@@ -144,8 +144,15 @@ h3 {
   margin-left: 45px;
 }
 .work {
-  font-size: 60px;
+  font-size: 55px;
   font-family: "Playfair Display";
+  font-weight: bold;
+}
+.work-text {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  margin-top: 15px;
 }
 
 @media (max-width: 576px) {
