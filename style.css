@@ -154,6 +154,11 @@ h3 {
   font-size: 18px;
   margin-top: 15px;
 }
+.contact {
+  font-size: 35px;
+  font-family: "Playfair Display";
+  font-weight: bold;
+}
 
 @media (max-width: 576px) {
   .picture-desktop {
