@@ -186,6 +186,9 @@ footer .contact-box p {
   position: relative;
   top: 28px;
 }
+.open-source-footer {
+  color: var(--primary-color);
+}
 
 @media (max-width: 576px) {
   .picture-desktop {
