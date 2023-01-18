@@ -26,8 +26,13 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 22px;
   opacity: 0.7;
+}
+h4 {
+  font-size: 48px;
+  font-family: "Playfair Display";
+  font-weight: bold;
 }
 
 p {
@@ -80,7 +85,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 26px;
   text-decoration: none;
 }
 
@@ -97,6 +102,7 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  color: var(--primary-color);
   border: 1px solid var(--primary-color);
   box-shadow: var(--box-shadow);
   color: var(--primary-color);
@@ -123,6 +129,7 @@ p {
 .hero {
   background-color: #f7fbfe;
   padding: 120px 20px;
+  border-radius: 10px;
 }
 .hero h1 {
   font-family: "Playfair Display";
@@ -131,7 +138,7 @@ p {
 h3 {
   font-family: "Poppins", sans-serif;
 }
-.title .text {
+.text .title {
   font-family: "Poppins", sans-serif;
 }
 .about-hero {
@@ -159,6 +166,26 @@ h3 {
   font-family: "Playfair Display";
   font-weight: bold;
 }
+footer .contact-box {
+  background: #f7fbfe;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+.contact-me-footer {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  position: relative;
+  top: 28px;
+}
 
 @media (max-width: 576px) {
   .picture-desktop {
@@ -173,6 +200,9 @@ h3 {
   h3 {
     font-size: 20px;
   }
+  h4 {
+    font-size: 25px;
+  }
   .primary-link {
     display: block;
     text-align: center;
@@ -181,7 +211,7 @@ h3 {
   .text {
     text-align: center;
   }
-  .hero .about-hero {
+  .hero .about-hero .contact-box {
     padding: 80px 20px;
   }
   .picture-me {
