@@ -200,6 +200,12 @@ footer .contact-box p {
 .email-footer:hover {
   text-decoration: underline;
 }
+.featured-projects {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 24px;
+  font-style: italic;
+}
 
 @media (max-width: 576px) {
   .picture-desktop {
